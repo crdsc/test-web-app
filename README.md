@@ -4,6 +4,7 @@ We are building test web-application image using this Dockerfile and deploying i
 
 1. GitHub to Jenkins web-hook configuration
 2. Build Docker image based on gitHub repo
+3. Create k8s deployment
 
 
 Test web-app for bla-bla
