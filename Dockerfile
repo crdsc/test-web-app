@@ -6,7 +6,7 @@ RUN apt-get clean
 COPY css /var/www/html/css
 COPY js /var/www/html/js
 COPY index.html /var/www/html/index.html
+COPY files/webapp.crdsmart.city.conf /etc/apache2/sites-enabled/webapp.crdsmart.city.conf
 
-EXPOSE 80 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 
