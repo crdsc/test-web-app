@@ -44,21 +44,14 @@ spec:
     spec:
       containers:
       - name: test-web-app
-        image: poyaskov/test-web-app
-        imagePullPolicy: "IfNotPresent"
+        image: poyaskov/test-web-app:latest
+        imagePullPolicy: "Always"
         ports:
         - containerPort: 80
-        env: {}
         volumeMounts:
         - name: apachehome
           mountPath: /var/www/html
-        - name: test-web-app-backup
-          mountPath: /mnt/test-web-app-backup
       volumes:
       - name: apachehome
         persistentVolumeClaim:
           claimName: px-test-web-app
-      - name: test-web-app-backup
-        nfs:
-          server: 158.20.25.10
-          path: /mnt/Pool-1/test-web-app-backup
