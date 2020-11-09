@@ -98,3 +98,7 @@ spec:
         persistentVolumeClaim:
           claimName: px-test-web-app
 ```
+
+#### 4. Deployed app
+
+Deployed application is available here:  https://web-app.poyaskov.ca
