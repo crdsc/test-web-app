@@ -43,7 +43,7 @@ spec:
         app: test-web-app
     spec:
       initContainers:
-        - name: www_httml_vol
+        - name: www-html-vol
           image: busybox
           command:
             - sh
@@ -61,9 +61,9 @@ spec:
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
-        volumeMounts:
-        - name: apachehome
-          mountPath: /var/www/html
+        volumeMounts: 
+#        - name: apachehome
+#          mountPath: /var/www/html
       volumes:
       - name: apachehome
         persistentVolumeClaim:
