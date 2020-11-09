@@ -42,6 +42,19 @@ spec:
       labels:
         app: test-web-app
     spec:
+      initContainers:
+        - name: www_httml_vol
+          image: busybox
+          command:
+            - sh
+            - '-c'
+            - 'chown -R 33:33 /var/www'
+          volumeMounts:
+            - name: apachehome
+              mountPath: /var/www/html
+          imagePullPolicy: IfNotPresent
+      imagePullSecrets:
+        - name: regcred
       containers:
       - name: test-web-app
         image: poyaskov/test-web-app:latest
