@@ -4,11 +4,15 @@ We are building test web-application image using this Dockerfile and deploying i
 
 Whole idea is to automate image building and deploy custom web-application to the Kubernetes cluster.
 
-## 1. Configure webhook in the DockerHub to auto build image once code is commited to the GitHub repo.
+![Test web-app](images/test-web-app.png)
 
-Here is DockerHub image location:
 
-GitHub to Jenkins web-hook configuration:  [poyaskov/test-web-app](https://hub.docker.com/repository/docker/poyaskov/test-web-app)
+## 1. Configure webhook in the DockerHub
+
+This webhook is for auto build web-server custom image once code is commited to the GitHub repo.
+
+Here is DockerHub image location: [poyaskov/test-web-app](https://hub.docker.com/repository/docker/poyaskov/test-web-app)
+
 
 
 ## 2. Build Docker image based on gitHub repo
