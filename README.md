@@ -4,7 +4,7 @@ We are building test web-application image using this Dockerfile and deploying i
 
 Whole idea is to automate image building and deploy custom web-application to the Kubernetes cluster.
 
-![Test web-app](images/test-web-app.png)
+![Test web-app](images/test-web-apps.png)
 
 
 ## 1. Configure webhook in the DockerHub
