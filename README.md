@@ -121,7 +121,6 @@ pipeline {
         VERSION = "0.5"
         TAG = "0.5"
         NAMESPACE = 'test-web-app'
-        INC="0.1"
     }
     
     stages { 
@@ -195,7 +194,6 @@ pipeline {
                 body: "Deployment finished Successfullt there ${env.BUILD_URL}"
         }
     }    
-
 }
 
 ```
