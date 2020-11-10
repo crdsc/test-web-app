@@ -102,6 +102,9 @@ spec:
 
 #### 4. Jenkins pipeline for K8s deployment
 
+Here is Jenkins URL: https://jenkins.crdsmart.city
+
+
 ```
 pipeline {
 
