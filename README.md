@@ -4,7 +4,7 @@ We are building test web-application image using this Dockerfile and deploying i
 
 Whole idea is to automate image building and deploy custom web-application to the Kubernetes cluster.
 
-![Test web-app](images/test-web-apps.png)
+![Test web-app](images/test-web-app.png)
 
 
 #### 1. Commit custom code to the GitHub/Bitbucket repo
@@ -146,7 +146,7 @@ pipeline {
                 sh """
                     sudo apt-get update && sudo apt-get install -y kubectl
                     mkdir -p ~/.kube/
-                    scp vadim@158.50.25.21:~/.kube/config ~/.kube/
+                    scp user@xx.xx.xx.xx:~/.kube/config ~/.kube/
                     kubectl get nodes
                 """
             }
