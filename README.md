@@ -197,7 +197,6 @@ pipeline {
 
 ```
 
-
 #### 5. Deployed app
 
 Deployed application is available here:  https://web-app.poyaskov.ca
