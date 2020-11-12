@@ -10,8 +10,7 @@ input {
 }
 
 #CalcForm {
-	align: center;
-	margin-left: 225px;
+	margin-left: 525px;
 	margin-top: 20ox;
 }
 
@@ -24,7 +23,7 @@ h1 {
 
 H3 {
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 	margin-right: 150px;
 	margin-top: 10px;
 }
