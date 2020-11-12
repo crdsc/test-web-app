@@ -150,7 +150,7 @@ pipeline {
                 sh """
                     sudo apt-get update && sudo apt-get install -y kubectl
                     mkdir -p ~/.kube/
-                    scp user@xxx.xxx.xxx.xxx:~/.kube/config ~/.kube/
+                    scp vadim@xxx.xxx.xxx.xxx:~/.kube/config ~/.kube/
                     kubectl get nodes
                 """
             }
@@ -188,12 +188,18 @@ pipeline {
         failure {
             mail to: 'vadim@poyaskov.ca',
                 subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
-                body: "Something is wrong with ${env.BUILD_URL}"
+                body: """
+                    FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'
+                    Check console output at '${env.BUILD_URL}'
+                    """
         }
         success {
             mail to: 'vadim@poyaskov.ca',
                 subject: "Deployment finisged Successfully . Pipeline: ${currentBuild.fullDisplayName}",
-                body: "Deployment finished Successfullt there ${env.BUILD_URL}"
+                body: """
+                    SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'
+                    Check console output at '${env.BUILD_URL}'
+                    """
         }
     }    
 
