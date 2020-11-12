@@ -86,7 +86,7 @@ spec:
         - name: regcred
       containers:
       - name: test-web-app
-        image: poyaskov/test-web-app:latest
+        image: registry.crdsmart.city/test-web-app:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
