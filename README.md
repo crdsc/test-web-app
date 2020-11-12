@@ -118,9 +118,10 @@ pipeline {
       //Use Pipeline Utility Steps plugin to read information from pom.xml into env variables
         IMAGE = 'test-web-app'
         LIMAGE = 'registry.crdsmart.city/test-web-app'
-        VERSION = "0.5"
-        TAG = "0.5"
+        VERSION = "0.${BUILD_NUMBER}"
+        TAG = "${BUILD_NUMBER}"
         NAMESPACE = 'test-web-app'
+        INC="0.1"
     }
     
     stages { 
@@ -135,6 +136,7 @@ pipeline {
             steps {
                 sh """
                     ls -l
+                    sed -i "/Build/ s/latest/\${BUILD_NUMBER}/" index.html
                     docker pull ubuntu:18.04
                     docker build -t ${IMAGE} .
                     docker tag ${IMAGE} ${LIMAGE}:${VERSION}
@@ -148,7 +150,7 @@ pipeline {
                 sh """
                     sudo apt-get update && sudo apt-get install -y kubectl
                     mkdir -p ~/.kube/
-                    scp user@xx.xx.xx.xx:~/.kube/config ~/.kube/
+                    scp user@xxx.xxx.xxx.xxx:~/.kube/config ~/.kube/
                     kubectl get nodes
                 """
             }
@@ -157,9 +159,9 @@ pipeline {
         stage('Deploy new image to k8s cluster') {
             steps {
                 sh """
-                    sed '/image/ s/latest/${VERSION}/' files/test-webapp-deploy.yaml
-                    kubectl -n ${NAMESPACE} apply -f files/test-webapp-deploy.yaml
-                    kubectl -n ${NAMESPACE} get pod |grep -v NAME | awk '{ print \$1 }'| xargs -i kubectl -n ${NAMESPACE} delete pod {}
+                    sed -i "/image/ s/latest/\${VERSION}/" files/test-webapp-deploy.yaml
+                    kubectl -n \${NAMESPACE} apply -f files/test-webapp-deploy.yaml
+                    kubectl -n \${NAMESPACE} get pod |grep -v NAME | awk '{ print \$1 }'| xargs -i kubectl -n \${NAMESPACE} delete pod {}
                 """
             }
         }
@@ -194,6 +196,7 @@ pipeline {
                 body: "Deployment finished Successfullt there ${env.BUILD_URL}"
         }
     }    
+
 }
 
 ```
