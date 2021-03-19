@@ -90,9 +90,6 @@ spec:
         imagePullPolicy: "Always"
         ports:
         - containerPort: 80
-        volumeMounts: 
-#        - name: apachehome
-#          mountPath: /var/www/html
       volumes:
       - name: apachehome
         persistentVolumeClaim:
