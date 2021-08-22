@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2020-11-12T02:50:33.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="T_05q0MYrLcABMb98p0t" version="13.9.3" type="github">
+  <diagram id="JWeNAQiVqbc7Q08cEnVS" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#66B2FF;" parent="1" source="ceyiaxkCHnjI5kasMRBy-1" target="ceyiaxkCHnjI5kasMRBy-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="494" />
+              <mxPoint x="330" y="494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-9" value="&amp;nbsp;Webhook&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;fontStyle=1" parent="ceyiaxkCHnjI5kasMRBy-6" vertex="1" connectable="0">
+          <mxGeometry x="0.675" y="-1" relative="1" as="geometry">
+            <mxPoint x="-54" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#66B2FF;" parent="1" source="ceyiaxkCHnjI5kasMRBy-1" target="ceyiaxkCHnjI5kasMRBy-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-8" value="Webhook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#66B2FF;fontStyle=1" parent="ceyiaxkCHnjI5kasMRBy-7" vertex="1" connectable="0">
+          <mxGeometry x="0.2063" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-1" value="&lt;font color=&quot;#66b2ff&quot;&gt;&lt;b&gt;poyaskov/test-web-app&lt;/b&gt;&lt;/font&gt;" style="verticalLabelPosition=top;html=1;verticalAlign=bottom;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;labelPosition=center;" parent="1" vertex="1">
+          <mxGeometry x="170" y="459" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-2" value="&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;DockerHub&lt;/b&gt;&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-128.png" parent="1" vertex="1">
+          <mxGeometry x="356" y="470" width="61" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-31" value="&amp;nbsp;biuld image&amp;nbsp;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#66B2FF;strokeWidth=2;fontColor=#66B2FF;" parent="1" source="ceyiaxkCHnjI5kasMRBy-3" target="ceyiaxkCHnjI5kasMRBy-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png;fontColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="175.5" y="645" width="59" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-14" value="&amp;nbsp;Pull&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;strokeWidth=2;fontColor=#66B2FF;fontStyle=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="ceyiaxkCHnjI5kasMRBy-4" target="ceyiaxkCHnjI5kasMRBy-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#3399FF;strokeWidth=2;fontColor=#3399FF;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="ceyiaxkCHnjI5kasMRBy-4" target="ceyiaxkCHnjI5kasMRBy-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-4" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=ep" parent="1" vertex="1">
+          <mxGeometry x="527" y="459" width="73" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#3399FF;strokeWidth=2;fontColor=#3399FF;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ceyiaxkCHnjI5kasMRBy-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="720" as="sourcePoint" />
+            <mxPoint x="567" y="531" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="567" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-32" value="Pull" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#66B2FF;" parent="ceyiaxkCHnjI5kasMRBy-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.2305" y="46" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-5" value="&lt;font color=&quot;#66b2ff&quot;&gt;workstation&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/laptop_client.svg;" parent="1" vertex="1">
+          <mxGeometry x="80" y="562.22" width="43" height="47.78" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeColor=#3399FF;strokeWidth=2;fontColor=#66B2FF;" parent="1" source="ceyiaxkCHnjI5kasMRBy-15" target="ceyiaxkCHnjI5kasMRBy-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-15" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=k_proxy;fontColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="670" y="451" width="64" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;strokeWidth=2;fontColor=#3399FF;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#66B2FF;" parent="1" source="ceyiaxkCHnjI5kasMRBy-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="582.2983313597709" as="sourcePoint" />
+            <mxPoint x="170" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-20" value="K8S Cluster" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#66B2FF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="527" y="430" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-21" value="&lt;font style=&quot;font-size: 14px&quot;&gt;https://web-app.poyaskov.ca&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;fontColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="654.38" y="610" width="95.24" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-24" value="git pull/push" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="43" y="490" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-27" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/user_accounts.svg;fontColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="677" y="720" width="50" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-29" value="https://jenkins.crdsmart.city" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontColor=#66B2FF;" parent="1" vertex="1">
+          <mxGeometry x="120" y="700" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ceyiaxkCHnjI5kasMRBy-30" value="&lt;font color=&quot;#3399ff&quot;&gt;&lt;b&gt;registry.crdsmart.city/test-web-app:latest&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-128.png;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="356" y="644" width="63.5" height="63.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

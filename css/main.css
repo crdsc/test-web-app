@@ -1,0 +1,28 @@
+input {
+	width: 150px;
+	height: 100px;
+	font-size: 75px;
+	border-radius: 10px;
+	margin: 10px;
+	background-color: #777;
+	color: #fff;
+	border-style: none;
+}
+#CalcForm {
+	margin-left: 225px;
+	margin-top: 20ox;
+}
+h1 {
+	font-size: 80px;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+h3 {
+	font-size: 40px;
+	margin-left: 450px;
+	margin-top: 10px;
+}
+.copyright {
+	font-size: 15px;
+	background-color: black;
+}
